@@ -5,6 +5,9 @@
 //  Created by Jarrod Parkes on 9/30/15.
 //  Copyright © 2015 Udacity. All rights reserved.
 //
+//  Udacity Editor - Student Signature.
+//  Code Signature.
+//  3960c466b6e28ebeeaf7d8bbfb464ecf
 
 extension Hero {
     
