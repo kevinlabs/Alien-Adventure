@@ -57,17 +57,7 @@ extension Hero {
                 }
             }
             
-            //            if let decryptedString = String(bytes: decrypted,
-            //                encoding: NSUTF8StringEncoding) where decryptedString == "udacity" {
-            //                    // ADD CODE: found match, now what?
-            //                print("Returning the key \(key)")
-            //                return key
-            //            }
-            
-            //            let tempVal = decrypted[0]
-            //            print("printing the raw value \(tempVal)")
-            //
-            //
+
             if let decryptedString = String(bytes: decrypted, encoding: NSUTF8StringEncoding) {
                 print("Printing DecryptedString \(decryptedString)")
                 
@@ -76,13 +66,6 @@ extension Hero {
             
         }
         
-        //        print("1 decrypted String is\(decrypted[0])")
-        //        print("2 decrypted String is\(decrypted[1])")
-        //        print("3 decrypted String is\(decrypted[2])")
-        //        print("4 decrypted String is\(decrypted[3])")
-        //        print("5 decrypted String is\(decrypted[4])")
-        //        print("6 decrypted String is\(decrypted[5])")
-        //        print("7 decrypted String is\(decrypted[6])")
         
         return key
         
