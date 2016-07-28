@@ -6,7 +6,7 @@ Udacity - Student Projects.
 
 ![Platform iOS](https://img.shields.io/badge/nanodegree-iOS-blue.svg)
 
-This repository contains starter code for the Alien Adventure project in Udacity's iOS Nanodegree.
+
 
 ## Overview
 
@@ -19,5 +19,3 @@ Each question posed by an alien has an associated Swift file where you "implemen
 ## Maintainers
 
 @jarrodparkes
-
-
