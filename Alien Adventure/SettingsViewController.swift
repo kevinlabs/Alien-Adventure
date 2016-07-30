@@ -47,7 +47,7 @@ class SettingsViewController: UIViewController {
     func addTargets() {
         startGameButton.addTarget(self, action: #selector(SettingsViewController.startGame), forControlEvents: .TouchUpInside)
         
-        showBadgesSwitch.addTarget(self, action: #selector(SettingsViewController.showBadges), forControlEvents: .TouchUpInside)
+        showBadgesSwitch.addTarget(self, action: #selector(SettingsViewController.showBadges), forControlEvents: .ValueChanged)
         
         levelSegmentedControl.addTarget(self, action: #selector(SettingsViewController.switchLevel), forControlEvents: .ValueChanged)
         print("adding targets!")
@@ -70,7 +70,7 @@ class SettingsViewController: UIViewController {
     }
     
     func startGame() {
-        print("start button has been pressed!")
+        print("start button has been pressed!")o
         
         let alienAdventureViewController = self.storyboard!.instantiateViewControllerWithIdentifier("AlienAdventureViewController") as! AlienAdventureViewController
         
