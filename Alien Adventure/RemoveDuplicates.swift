@@ -13,7 +13,7 @@
 extension Hero {
     
     func removeDuplicates(inventory: [UDItem]) -> [UDItem] {        
-        return [UDItem]()
+        return Array(Set(inventory))
     }
     
 }

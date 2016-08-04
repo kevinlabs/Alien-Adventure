@@ -11,13 +11,10 @@
 //  3960c466b6e28ebeeaf7d8bbfb464ecf
 
 
-
-
-
 extension Hero {
     
     func sortLeastToGreatest(inventory: [UDItem]) -> [UDItem] {
-        return [UDItem]()
+        return inventory.sort(<)
     }
     
 }
